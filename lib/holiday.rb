@@ -34,7 +34,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       holiday = cap_holiday.join(" ")
       v = v.join(", ")
-      puts "#{holiday}: #{v}"
+      puts "  #{holiday}: #{v}"
     end
   end
 end
